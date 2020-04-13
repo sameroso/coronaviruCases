@@ -1,3 +1,6 @@
+This website was made for improve the api consuming skill and the use of redux in a project
+to Visit the Project Website go to: https://objective-fermi-3c450a.netlify.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
