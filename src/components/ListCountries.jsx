@@ -56,7 +56,7 @@ class ListCountries extends React.Component{
                 return(
                     <div>
                         <div className="row">
-                            <h1 className="mx-auto title-text-style">{this.props.data.Countries[index].Country}</h1>
+                            <h1 className="mx-auto title-text-style text-center">{this.props.data.Countries[index].Country}</h1>
                         </div>
                          <Cases 
                         newConfirmed ={Countries[index].NewConfirmed}
@@ -93,7 +93,7 @@ class ListCountries extends React.Component{
             <div>
                 <div>{this.renderGlobalCases()}</div>
                 <form className="pt-3" onSubmit={(e) =>this.onSubmit(e)}>
-                    <div style={{display:'flex'}}>
+                    <div className="container" style={{display:'flex'}}>
                         <input value={this.state.input} onChange={(e) => this.setState({input: e.target.value})} id="input" 
                         className="input-config" list='countries' placeholder="Insert A Country"/>
                         <div>
