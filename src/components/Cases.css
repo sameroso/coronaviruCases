@@ -1,0 +1,14 @@
+.body-text-style {
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-weight: 200;
+    color: black;
+}
+.title-text-style {
+    font-family: 'New Rocker', cursive;
+    color: black;
+}
+.background{
+    background-color: darkred;
+    border-radius: 5px;
+}
